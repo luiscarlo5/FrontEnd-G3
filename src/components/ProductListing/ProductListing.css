@@ -1,0 +1,12 @@
+.link{
+    text-decoration: none;
+    color: #C92071;
+    padding: 10px 15px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s;
+}
+.link:hover{
+    color: #c92072;
+    text-decoration:underline;
+    font-weight: bold;
+}

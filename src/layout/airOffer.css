@@ -1,0 +1,8 @@
+p{color: #474747;}
+h1{color: #474747;}
+.divPrimary{
+    height: 400px;
+    @media (max-width: 1024px){
+        height: 700px;
+    }
+}

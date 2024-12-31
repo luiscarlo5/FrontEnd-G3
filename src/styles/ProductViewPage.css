@@ -1,0 +1,116 @@
+.product-view-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.breadcrumb {
+    margin-bottom: 20px;
+    color: #C92071;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #C92071;
+    margin-right: 5px;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+    color: #C92071;
+    font-weight: bold;
+}
+
+.product-details {
+    display: flex;
+    margin-top: 20px;
+}
+
+
+.product-item .product-image {
+    width: 100%;
+}
+
+.product-info {
+    flex: 1;
+}
+
+.price-info {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.current-price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.original-price {
+    text-decoration: line-through;
+    margin-left: 10px;
+    color: #999;
+}
+
+.rating-info {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #888;
+}
+
+.description {
+    margin-top: 20px;
+}
+
+.size-selector,
+.color-selector {
+    margin-top: 20px;
+}
+
+.size-buttons button,
+.color-buttons button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #E2E3FF;
+    color: black;
+    cursor: pointer;
+}
+
+.color-buttons button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.related-products {
+    margin-top: 40px;
+}
+
+.related-products-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.related-product-card {
+    width: 22%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.related-product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.related-product-card p {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.related-product-card .price {
+    font-size: 18px;
+    color: #ff0000;
+}

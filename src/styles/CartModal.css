@@ -1,0 +1,42 @@
+.cart-modal {
+    position: relative;
+}
+
+.cart-empty {
+    text-align: center;
+    padding: 20px;
+}
+
+.cart-items {
+    
+    overflow-y: auto;
+}
+
+.cart-total {
+    text-align: right;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.cart-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.cart-buttons button, .cart-buttons a {
+    background-color: #ff4c4c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    flex: 1;
+    margin: 0 5px;
+}
+
+.cart-buttons button:hover, .cart-buttons a:hover {
+    background-color: #ff2c2c;
+}
