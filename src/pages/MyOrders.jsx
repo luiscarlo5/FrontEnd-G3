@@ -107,8 +107,8 @@ const MyOrders = () => {
                                     <div className="cart-empty">Seu carrinho está vazio.</div>
                                 ) : (
                                     cart.map((item) => (
-                                        <div className='flex flex-wrap column-flex md:row-flex border-3 lg:h-7rem md:h-20rem my-2 w-12 px-0 PB-5'>
-                                            <div className='flex flew-wrap lg:w-5  md:w-12 bg-red-500 sm:w-11'>
+                                        <div className='flex flex-wrap column-flex md:row-flex lg:h-7rem md:h-20rem my-2 w-12 px-0 PB-5'>
+                                            <div className='flex flew-wrap lg:w-5  md:w-12 sm:w-11'>
                                                 <img src={item.img} className='block bg-blue-100 h-6rem mt-2 p-1 border-round-md w-7 p-0'/>
                                                 <p className='w-9 block text-left ml-2 inline'> {item.title} </p>
                                             </div>
