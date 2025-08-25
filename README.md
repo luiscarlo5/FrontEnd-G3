@@ -1,6 +1,6 @@
-# 🛍️ Digital Store - Front-end
+# Digital Store - Front-end
 
-![Capa](./src/assets/print1.png)
+![Capa](./src/assets/print1.jpg)
 
 ## Sobre o Projeto
 Este projeto foi desenvolvido como parte do curso de **Desenvolvimento Web** na **Digital College**.  
@@ -40,6 +40,7 @@ A aplicação simula uma loja online, apresentando páginas de listagem e visual
 
 
 ## Estrutura de Pastas
+```plaintext
 src/
 ├── assets/             # Imagens, ícones e recursos estáticos
 ├── components/         # Componentes reutilizáveis
@@ -76,8 +77,8 @@ src/
 ├── App.css
 ├── index.css
 ├── main.jsx
-└── index.html
-
+└ index.html
+```
 
 ### Passos para ter acesso ao Repositório
 ```bash
