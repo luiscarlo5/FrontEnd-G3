@@ -25,7 +25,7 @@ A aplicação simula uma loja online, apresentando páginas de listagem e visual
 - [React](https://react.dev/)  
 - [React Router](https://reactrouter.com/)  
 - [Styled Components](https://styled-components.com/)  
-- [Vite](https://vitejs.dev/) ou Create React App *(dependendo do setup utilizado)*  
+- [Vite](https://vitejs.dev/)  
 
 ---
 
